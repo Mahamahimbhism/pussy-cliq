@@ -1,0 +1,10 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to position your loader */
+    background-color: #f8f8f8; /* Light gray background for contrast */
+    border: 1px solid #ccc; /* Subtle border for classic appeal */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}

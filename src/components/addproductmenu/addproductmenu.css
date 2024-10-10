@@ -1,0 +1,74 @@
+/* Container for the Add Product Menu */
+
+
+/* Heading style for the form */
+.menu-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for the product form */
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 97%;
+}
+
+/* Label for form inputs */
+.form-label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.9rem;
+}
+
+/* Input field for product name */
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+
+/* Submit button styling */
+.submit-button {
+    background-color: #080808;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex; /* This moves the button to the bottom-right corner */
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0a0a0a; /* Darken on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .menu-container {
+        padding: 1rem;
+    }
+
+    .menu-heading {
+        font-size: 1.5rem;
+    }
+
+    .form-input {
+        padding: 0.5rem;
+    }
+
+    .submit-button {
+        padding: 0.5rem 1rem;
+    }
+}

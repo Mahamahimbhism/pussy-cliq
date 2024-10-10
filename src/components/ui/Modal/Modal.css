@@ -1,0 +1,42 @@
+/* Backdrop for the modal */
+.backDrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* 70% opacity black backdrop */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Ensures it's above everything */
+}
+
+/* Modal container styling */
+.modal {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    z-index: 101;
+    min-width: 500px;
+    max-width: 800px;
+    width: 100%; /* Responsive modal */
+    position: relative;
+}
+
+/* Close button inside the modal with more specific class */
+.modal .close-modal-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+}
+
+.modal .close-modal-btn:hover {
+    color: #ff6f61; /* Hover color for close button */
+}

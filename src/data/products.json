@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 12 mini",
+      "image": "iphone-12-mini.png"
+    },
+    {
+      "id": 2,
+      "name": "Wireless Headphones",
+      "image": "wireless-headphones.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Laptop G15",
+      "image": "gaming-laptop-g15.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch Pro",
+      "image": "smartwatch-pro.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "image": "bluetooth-speaker.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "4K Ultra HD TV",
+      "image": "4k-ultra-hd-tv.jpeg"
+    }
+  ]
+  
